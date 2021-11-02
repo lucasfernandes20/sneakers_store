@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+.header-content {
+  width: 100vw;
+  padding: 0 15px;
+  height: 50px;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  -webkit-transition: ease-in-out 500ms;
+  transition: ease-in-out 500ms;
+}
+
+.logo-title {
+  color: white;
+  font-weight: 700;
+}
+
+.sneakers-list-content {
+  margin-top: 40px;
+  width: 100vw;
+}
+
+.sneakers-list-content h2 {
+  font-size: 20px;
+}
+
+.sneakers-list {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sneakers-list-btn-content {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.sneakers-list-btn {
+  background-color: gray;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 800;
+}
+
+.sneaker-card-content {
+  width: 45%;
+  height: 250px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 3px 6px 10px gray;
+          box-shadow: 3px 6px 10px gray;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sneaker-card-content:hover {
+  cursor: pointer;
+}
+
+.sneaker-card-content img {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sneaker-card-infos {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 99, 12, 0)), color-stop(20%, #c0630c), to(#c0630c));
+  background: linear-gradient(rgba(192, 99, 12, 0) 0%, #c0630c 20%, #c0630c 100%);
+  padding: 10px;
+  border-radius: 0 0 9px 9px;
+  width: 100%;
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  letter-spacing: 1px;
+}
+
+.sneaker-card-infos h2 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
+  color: white;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.sneaker-card-infos span {
+  font-size: 13px;
+  font-weight: 900;
+  color: lightgray;
+}
+
+.hero-container {
+  width: 100vw;
+  height: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgba(0, 0, 0, 0.7)), color-stop(15%, rgba(0, 0, 0, 0.4)), color-stop(20%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("https://images.pexels.com/photos/5158825/pexels-photo-5158825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background: linear-gradient(rgba(0, 0, 0, 0.7) 2%, rgba(0, 0, 0, 0.4) 15%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 100%), url("https://images.pexels.com/photos/5158825/pexels-photo-5158825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-container h1 {
+  width: 280px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  padding: 20px;
+}
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+}
+/*# sourceMappingURL=main.css.map */

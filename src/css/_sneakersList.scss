@@ -1,0 +1,31 @@
+.sneakers-list-content {
+  margin-top: 40px;
+  width: 100vw;
+  h2 {
+    font-size: 20px;
+  }
+}
+
+.sneakers-list {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sneakers-list-btn-content {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sneakers-list-btn {
+  background-color: gray;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 800;
+}
